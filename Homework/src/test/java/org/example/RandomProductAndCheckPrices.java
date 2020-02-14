@@ -53,7 +53,7 @@ public class RandomProductAndCheckPrices {
         price = choiseproduct.price.getText();
         return price;
     }
-    /* Add the product to basket and goes basket page then return price from basket page */
+    /* Add the product to basket and go basket page then return price from basket page */
     public String addBasketAndCheckPrices(WebDriver driver) {
         String priceinorder;
         AddBasketAndCheckPrices choiseproduct = new AddBasketAndCheckPrices(driver);
